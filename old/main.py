@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 
-df=pd.read_csv('E:/varun/data science lab/data cleaning/Loan_data.csv')
+df=pd.read_csv('Add file name / path here')
 col=list(df.columns)
 ncol=list()
 sizedf=np.size(df,axis=0)
@@ -113,5 +113,5 @@ if len(ncol)>0:
     null_val(ncol)
 ndf=df
 print(ndf)
-path1='E:/varun/code/datacleaning/data.csv'
-ndf.to_csv(path1)
+
+ndf.to_csv('Add file name / path here')
