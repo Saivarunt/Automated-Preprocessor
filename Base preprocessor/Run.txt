@@ -1,0 +1,3 @@
+Run the normalize code which would act as main dialogue of connection between the other modules.
+Once run the imports will help sort out and feed output.
+You can use the pandas command (to_csv()) to download a copy of the clean dataset.
